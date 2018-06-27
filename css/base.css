@@ -1,0 +1,179 @@
+body {
+	background-image:url(../img/two_rivers_meeting.jpg);
+	font-family: Century, Times, Serif;
+	margin:0px;
+	padding: 0px;
+	background-attachment: fixed;
+}
+
+ #centerer {
+	text-align:center;
+	
+}
+#container {
+	width: 750px;
+	margin: 0 auto;
+	padding: 10px 10px 10px 10px;
+	text-align: left;
+	background-color:#F7FFFF;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #999999;
+	border-bottom-color: #666666;
+}
+
+
+
+
+img#logo {
+	float: right;
+	margin: 0 0 0 0;
+	z-index:100;
+	width: 150px;
+	height: 150px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+}
+
+/* NAV */
+#mainnav li
+{
+display: inline;
+list-style-type: none;
+margin-top: -60px;
+
+
+}
+
+#mainnav li a, #mainnav li a:active, #mainnav li a:visited {
+color: #435048;
+text-decoration: none;
+font-size: .9em;
+font-weight: bold;
+}
+
+#mainnav li a:hover {
+color: #000000;
+}
+
+
+
+
+/**************************************************************************/
+html {
+  background-position: center top;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+a, a:visited {
+  color: #1a525a;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1.pageTitle {
+	text-align: center;
+	font-family: serif;
+	color:#435048;
+	border-bottom-width: 30px;
+	border-bottom-style: solid;
+	border-bottom-color: #B3C2C9;
+}
+h2 {
+  font-family: serif;
+}
+ul {
+  list-style: none;
+}
+p.audio {
+  text-align: center;
+}
+p.foot {
+  text-align: center;
+}
+p.sub {
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+  font-style: italic;
+}
+div.inset-left {
+  clear: left;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+div.inset-right {
+  clear: right;
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+
+ul.nav {
+  font-weight: bold;
+  font-size: 130%;
+  font-family: serif;
+}
+/* css */
+div.homeHeader{
+	margin: 0 auto 0 auto;
+	width: 450px;
+	}
+h1.homeHeader {
+	text-indent: -5000px;
+	background:url(../img/bafilaben.png);
+	height: 56px;
+	width: 450px;
+	overflow: hidden;
+	text-align: center;
+	}
+div.transbox
+  {
+  width: 100%;
+  height: 60px;
+  margin: 20px 0 0 0;
+  padding: 0px;
+  background-color: #ffffff;
+  border: 0px;
+  /* for IE */
+  filter:alpha(opacity=80);
+  /* CSS3 standard */
+  opacity:0.8;
+  }
+  
+div.transboxInterior
+  {
+  width: 100%;
+  height: 60px;
+  margin: 20px 0 0 0;
+  padding: 0px;
+  background-color: #ffffff;
+  border: 0px;
+  /* for IE */
+  filter:alpha(opacity=80);
+  /* CSS3 standard */
+  opacity:0.8;
+  z-index:1;
+  }
+div.transboxInterior img
+  {
+    /* for IE */
+  filter:alpha(opacity=40);
+  /* CSS3 standard */
+  opacity:0.6;
+ 
+  }
+ div#flashcontent {
+ margin: 0 auto 0 auto;
+ text-align:center;}
+ 
+ .clearer {
+	clear:both;
+}
